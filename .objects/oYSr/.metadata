@@ -1,0 +1,12 @@
+﻿{
+  "Id": "oYSrrwVa70OG_1SNeDJClg",
+  "Reference": "cN106zf8y0Ggrvafw3Pu9w/oYSrrwVa70OG_1SNeDJClg",
+  "Name": "الحاسبة",
+  "Type": "App",
+  "Created": "2022-12-22T14:10:22.1202478Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-12-22T14:10:22.1202478Z"
+}

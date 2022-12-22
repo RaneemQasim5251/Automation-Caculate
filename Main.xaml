@@ -1,0 +1,175 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="594,756.6666666666666" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:j="clr-namespace:JustNothing;assembly=DataService.JustNothing" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="39">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.DataService.Activities</x:String>
+      <x:String>UiPath.DataService.Definition</x:String>
+      <x:String>UiPath.DataService.Activities.Models</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Runtime.CompilerServices</x:String>
+      <x:String>JustNothing</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="58">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.DataService.Activities.Core</AssemblyReference>
+      <AssemblyReference>UiPath.DataService.Definition</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.CompilerServices.VisualC</AssemblyReference>
+      <AssemblyReference>System.Runtime.CompilerServices.Unsafe</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>DataService.JustNothing</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="496,2104" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="j:Invoices" Name="Inv" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: الحاسبة" sap:VirtualizedContainerService.HintSize="434,1982" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="24d4ede5-3e16-4c28-a882-a714f4ddad0b" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,1676" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="CalvulatorResult" />
+              <Variable x:TypeArguments="x:String" Name="CalculatorResult" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ClickType="Single" DisplayName="Click '٥'" sap:VirtualizedContainerService.HintSize="338,168" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="24d4ede5-3e16-4c28-a882-a714f4ddad0b" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="138, 540, 118, 73" DesignTimeScaleFactor="1.5" FriendlyName="'٥'" FullSelectorArgument="&lt;uia cls='LandmarkTarget' /&gt;&lt;uia automationid='NumberPad' cls='NamedContainerAutomationPeer' name='لوحة الأرقام' /&gt;&lt;uia automationid='num5Button' cls='Button' name='خمسة' /&gt;" FuzzySelectorArgument="&lt;uia cls='LandmarkTarget' /&gt;&lt;uia automationid='NumberPad' cls='NamedContainerAutomationPeer' name='لوحة الأرقام' /&gt;&lt;uia automationid='num5Button' cls='Button' name='خمسة' role='‏‏زر' check:fulltext='٥' /&gt;" Guid="d8f036bf-9262-4df6-ad76-ff2d57249d52" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHoAAABNCAYAAABpJnDxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAKWSURBVHhe7d27rSIxGMXxLQUYhpfEW4hXGXRBEdRABzRAAeSEpIRkRGRkhL46lr4Rw5i7G659jqW/tBozN/mt55X4T61Wcyr9BE1SELper7t2u+0Gg4GbTqduNpup/zw49ft91+l0vN+naQW62WwKN/Imk4l3fHctQRuyQS+XS7dardx6vVYRBC+4mWGWZVVoLPfRaOTG47H/cegPqTiCHxyHw2FxGS+gW62Wh8ayD52s4gqO8MzzvAzd6/X8xGKxCJ6o4mo+n3vPbrdbhsYyx4TuyWkER3jizakEjYModJKKMzMVdOIJmiRBkyRokgRNkqBJEjRJgiZJ0CQJmiRBkyRokgRNkqBJEjRJgiZJ0CQJmiRBkyRokgRNkqBJEjRJtNC73c7d73eH8Xw+3fl8Dv4ulSihgfx6vTzy+3g8Hm6z2QTPiT066O12WyCfTid/bL/fF8dut1vlnBSig75erx70crmUjgPbBv79PpdCVNBYzRhYvaFLtP0nSHFVU0HjUo0B0NA87t02QvMxRwWNlYpxPB6D88ju1aldvqmg8Rr1N0R75RJ0xNkQdOLQ/3JZFnQCGeK3r2D2VI6R2ocTKmg8hNkANmBt7nA4+C9jGJ/v2ClEBY3sXfnbwKpP8TMoHTTC6rVXLRsA/u21K/YooRkTNEmCJknQJAmaJEGTJGiSBE2SoEkSNEmCJknQJAmaJEGTJGiSBE2SoEkSNEmCJknQJAmapCC09qZMq697U2q32bT6utus9o9OK9s/Gq4laOwcjmWOSe0IH3fwgyM8KzvCoyzL/A9sZeMyrnt2HMEJXraS8cwFT7MtQSNM2spWcQa/RqNRcq1AIyx3XNvxgCb0OIITvPI8Ly7X7wWhVXoJmqKa+wHKfV9/1L60ugAAAABJRU5ErkJggg==" InformativeScreenshot="42f0f78b6d5326cbd83a424e5f393168.png" ScopeSelectorArgument="&lt;wnd app='applicationframehost.exe' appid='Microsoft.WindowsCalculator_8wekyb3d8bbwe!App' title='الحاسبة' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click ''" sap:VirtualizedContainerService.HintSize="338,168" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="24d4ede5-3e16-4c28-a882-a714f4ddad0b" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="FV72aO0HekWNA6EokB5ktQ" DesignTimeRectangle="382, 617, 118, 74" DesignTimeScaleFactor="1.5" FriendlyName="''" FullSelectorArgument="&lt;uia cls='LandmarkTarget' /&gt;&lt;uia automationid='StandardOperators' cls='NamedContainerAutomationPeer' name='عوامل قياسية' /&gt;&lt;uia automationid='plusButton' cls='Button' name='علامة الجمع' /&gt;" FuzzySelectorArgument="&lt;uia cls='LandmarkTarget' /&gt;&lt;uia automationid='StandardOperators' cls='NamedContainerAutomationPeer' name='عوامل قياسية' /&gt;&lt;uia automationid='plusButton' cls='Button' name='علامة الجمع' role='‏‏زر' check:fulltext='' /&gt;" Guid="c31467d3-2b2e-48c1-96f6-e55e55414831" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHoAAABOCAYAAADvsgJfAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAH3SURBVHhe7d07jsIwFIXhWUoghJfEW6yCnbEqtsIO6Cg9OkhGhJiZFt/zF3/lJM2XG8WVf5qmSRQ/oE0qQo9GozSbzdJ6vU6HwyEdj0f64mS0Wq3SfD5/2JVMB9CTyQTcitvv9w/Dd9cedEbO6Sb6/rLVq13btmVojfx2u0273e7R+8OojrLfZrPpfcaf0NPp9AldegDVkxxV13VD6OVyCXSQZCjLxWIxhNaoa7F0I9WXLLVrGkBrAeg4ZU+ggwe0SUCbBLRJQJsEtElAmwS0SUCbBLRJQJsEtElAmwS0SUCbBLRJQJsEtElAm2QNfblc0vl8Lq5Fyxr6er0+sEtr0QIaaKAjBTTQQEcKaKCBjlRoaCEK81P3+z3dbrfiWi7KPjs0tJCE/amMXFrLnU6n4rNrKzT0f2Xk0lq0gAYa6EgBDTTQkQIaaKAjZQ2tfXaUffJ/WUM7BbRJQJsEtElAmwS0SUCbBLRJQJsEtElAmwS0SUCbBLRJQJsEtElAmwS0SUCbBLRJQJsEtEkfoTmENFayLB5CyrHCcfrzWOF8UDhTXX/ZUaYDaB0Tr1HXBUx1veVplmXx6H/Vtu3zbdANgNdT9pKd/rdk+Wrbg1a6IE821ZfsxuNxz1QNoJVGXt93/aCB/v3JSFZd1/U+168VoSleQFvUpF93d5d6dHzbRgAAAABJRU5ErkJggg==" InformativeScreenshot="73109b5f648902faf13405e88331915f.png" Reference="cN106zf8y0Ggrvafw3Pu9w/zDaaMo6BwkKt8OswJVDTIg" ScopeSelectorArgument="&lt;wnd app='applicationframehost.exe' appid='Microsoft.WindowsCalculator_8wekyb3d8bbwe!App' title='الحاسبة' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click '٧'" sap:VirtualizedContainerService.HintSize="338,168" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="24d4ede5-3e16-4c28-a882-a714f4ddad0b" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="WOB4Cv8nMk-K86-pjXX9WQ" DesignTimeRectangle="17, 464, 118, 73" DesignTimeScaleFactor="1.5" FriendlyName="'٧'" FullSelectorArgument="&lt;uia cls='LandmarkTarget' /&gt;&lt;uia automationid='NumberPad' cls='NamedContainerAutomationPeer' name='لوحة الأرقام' /&gt;&lt;uia automationid='num7Button' cls='Button' name='سبعة' /&gt;" FuzzySelectorArgument="&lt;uia cls='LandmarkTarget' /&gt;&lt;uia automationid='NumberPad' cls='NamedContainerAutomationPeer' name='لوحة الأرقام' /&gt;&lt;uia automationid='num7Button' cls='Button' name='سبعة' role='‏‏زر' check:fulltext='٧' /&gt;" Guid="0f019c4a-7ac2-46c0-a8e0-9ff70ca56c3a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHoAAABNCAYAAABpJnDxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAALCSURBVHhe7d07jsIwFIXhWQoQwkviLcRrGeyCRbAGdsAGWAA9JS0lHRUdHaVHx9IdBWKYFvucSL9mBptpPuwkNPmpVCpOpZ+gSXoLXa1WXbPZdL1ez43HYzeZTNQXB6Nut+tarZa3e/UMQtfrdeFG3Gg08oZF0xK0IRv0fD53i8XCLZdL9eXBCmbml2VZGBpLfjAYuOFw6N8Q+mfq+4MdDPv9/t82/gTdaDQ8NJZ+6B+oeIIhLPM8L0N3Oh0/OJvNgm9W8TSdTr1lu90uQ2OpY1Dn5PiDISxx11SCxgAKvVHFl3kKOvEETZKgSRI0SYImSdAkCZokQZMkaJIETZKgSRI0SYImSdAkCZokQZMkaJIETZKgSRI0SYImiQL68Xg4HOv1Ojhe7H6/+7nb7TY4HmsU0Ofz2eMdDofguLXZbPw8YIfGY44CerfbecDb7RYct06nk5+Hn6HxmKOARrZ9Y9WGxpFt25/mxBoNtG3fx+MxOJ7yto1ooP/bvlPethENNPp09Z3yto2ooN9dfQMeR6rbNqKCtu37er0+vQ54HKlu24gKerVaeVAc+N1eBzwOfBCK81OKChpdLpcnVMPH+ft1bkrRQds2jfM1/rbtHB+A17kpRQf9euFlt1X7/b40N6XooJHdSgG9+HtobipRQtsqxrdkOP77DjyFKKHtvGxfoKR8W2VRQqPikfJtlUULbffOOELjqUULbefn12/JUo0Wmi1BkyRokgRNkqBJEjRJgiZJ0CQJmiRBkyRokgRNkqBJEjRJgiZJ0CQJmiRBkyRokt5C6yGk6fTxIaR6rHA6fXyssB4Unk72oHCYlqDxmHgsdUzQo//jDXYwhGXw0f8oyzI/yVY2tnGds78/GMHKVjKut2BpriVohAm2slV8wa5Wqz2ZBqERljz2d1ygCf37gxGs8jz/266LvYVWKVVxv+oDezD/DQz2AAAAAElFTkSuQmCC" InformativeScreenshot="bcc05088d4ff74470bc851484bdbef32.png" Reference="cN106zf8y0Ggrvafw3Pu9w/YyvtdA7WDk2LgoGSRaQJaw" ScopeSelectorArgument="&lt;wnd app='applicationframehost.exe' appid='Microsoft.WindowsCalculator_8wekyb3d8bbwe!App' title='الحاسبة' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click ''" sap:VirtualizedContainerService.HintSize="338,168" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="24d4ede5-3e16-4c28-a882-a714f4ddad0b" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="iJVq0vJewkCXlDVjGSShIw" DesignTimeRectangle="382, 541, 118, 73" DesignTimeScaleFactor="1.5" FriendlyName="''" FullSelectorArgument="&lt;uia cls='LandmarkTarget' /&gt;&lt;uia automationid='StandardOperators' cls='NamedContainerAutomationPeer' name='عوامل قياسية' /&gt;&lt;uia automationid='minusButton' cls='Button' name='علامة الطرح' /&gt;" FuzzySelectorArgument="&lt;uia cls='LandmarkTarget' /&gt;&lt;uia automationid='StandardOperators' cls='NamedContainerAutomationPeer' name='عوامل قياسية' /&gt;&lt;uia automationid='minusButton' cls='Button' name='علامة الطرح' role='‏‏زر' check:fulltext='' /&gt;" Guid="7f8284bf-65d4-4525-83df-b7cfd5659467" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHoAAABNCAYAAABpJnDxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAHQSURBVHhe7d1NjoJAFEXhXgqK4E+igsZVsDNX5VZcSXWuSdkgZU+cWHXP4IyAmnw+gqP3U1VVoPID2qQk9GKxCOv1OhwOh3A+n8PlcqEvTkb7/T5sNpuHXcp0Br1arcDNuNPp9DB8dZ1AR+SYHqLvL1qN7eq6TkNr5LuuC33fP3o9jPIo+h2Px8lr/Andtu0TOnUA5ZMcVdM0c+jdbgd0IclQltvtdg6tUdfF1IOUX7LUv6YZtC4AXU7RE+jCA9okoE0C2iSgTQLaJKBNAtokoE0C2iSgTQLaJKBNAtokoE0C2iSgTQLaJKBNAtokoE0C2iSgTQLaJKBNAtokoE0qGvp2u4X7/f5R1+s1eXZuFQ0tJGF/0jAMybNzq2ho+gtok4A2CWiTgDYJaJOANglok4A2CWiTgDYJaJOANglok4A2CWiTgDYJaJOANglok4A2CWiTgDYJaJOANglok4A2CWiTgDbpLTS7KctKlsndlGybLad/t83G/dFMdf5FR5nOoLU9XKOuG5jqfIvTLMvkRnhV1/Xz16AHAM+n6CU7fW/Jcmw7gVa6IU425ZfslsvlxFTNoJVGXu93faCB/v3JSFZN00xe1+OS0FReQFtUhV9MuZ3wUavdAQAAAABJRU5ErkJggg==" InformativeScreenshot="f4a2a98847cb4cad25747070a62d2cfd.png" Reference="cN106zf8y0Ggrvafw3Pu9w/MmtmefSrqkqtS6trXEGJOg" ScopeSelectorArgument="&lt;wnd app='applicationframehost.exe' appid='Microsoft.WindowsCalculator_8wekyb3d8bbwe!App' title='الحاسبة' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click '٣'" sap:VirtualizedContainerService.HintSize="338,168" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="24d4ede5-3e16-4c28-a882-a714f4ddad0b" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="rCBYNo6H3Em5Pb0dt3cFUQ" DesignTimeRectangle="260, 617, 118, 74" DesignTimeScaleFactor="1.5" FriendlyName="'٣'" FullSelectorArgument="&lt;uia cls='LandmarkTarget' /&gt;&lt;uia automationid='NumberPad' cls='NamedContainerAutomationPeer' name='لوحة الأرقام' /&gt;&lt;uia automationid='num3Button' cls='Button' name='ثلاثة' /&gt;" FuzzySelectorArgument="&lt;uia cls='LandmarkTarget' /&gt;&lt;uia automationid='NumberPad' cls='NamedContainerAutomationPeer' name='لوحة الأرقام' /&gt;&lt;uia automationid='num3Button' cls='Button' name='ثلاثة' role='‏‏زر' check:fulltext='٣' /&gt;" Guid="5924f45f-1cde-4f99-b9bd-ba10d28d8718" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHoAAABOCAYAAADvsgJfAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAALiSURBVHhe7d27ctNAGMVxngMIIfFNdix8t0MuPAJdXoEG3oACXoAiPUVqZtIyk5ZJxaQDKlKRilSkcrnofJPVyNE6UEp7jmb+k5mVreanXclp9sHD7YZT8SdoktZCP2o03Va355LB0D2bzd1wsasqXDqbmdV2b8fs7noGoZ+0O/bF0AVV9UunMzMsmpag8QHMYDTIvjTZP3Czg0M3P3yhKhyMYDWYL8wuzdpotcPQmPK90dj1J1O7M0IXVNUPdjDsZpZ+GV+B3kq6rjee2NQPXUDVI8zufmYIy81OUoZu9VM7Od7bD15A1afx8z2zbO70y9Dd4chO6plc/6bZ8xqWeBMvQeMECn1R1S/vKejIEzRJgiZJ0CQJmiRBkyRokgRNkqBJEjRJgiZJ0CQJmiRBkyRokgRNkqBJEjRJgiZJ0CQJmiQK6I8nJw7Hr6urlfFv33/Y+Oezs3zs68WFjeFv8bN1jwL65dGR4eEojn86PbWxn5eX+diH42Mbu3tT1D0KaPTn5sYA3757n4+FUP3Y7+vrfCyGaKAxa3FgFvsxLNk4ijN63TJf92igv5yfG6B/9mJmL5fLlbFXr9/YTC6OxRINtF+S/+fADQD00HXqGg108YXMH1iysXz7WYwDY8XneCzRQCN/hM7FHhW0n7kxzth/RQWNN2kceF6HzsccJTR+QoXOxxwVtP/3Jn5qhc7HHBW0/y0taEFHm6BJEjRJgiZJ0CQJmiQqaOYETZKgSRI0SYImSdAkCZokQZMkaJIETZKgSRI0SYImSdAkCZokQZMkaJIETZKgSVoLrU1I4+neTUib2lY4mu7dVvjp7Ubh2GQ69GVVn/xG4TAtQWOb+OR2+R7OF8ELqOo3WOyaIZbt4Nb/aKPVtg+hNLsrsIzrmV398EyGFczMbzQ2S+9agkb4gJ/Zqn5hJj9utlZMg9AIUx7reyt7QfNv46q6YWLiZXqzk+TLdbG10CquBE1Rw/0FjAclu7ydcp4AAAAASUVORK5CYII=" InformativeScreenshot="f3127df08417e62fe855cea687c9dfc5.png" Reference="cN106zf8y0Ggrvafw3Pu9w/IcYF0WAksEG-Kxv6J7Op2g" ScopeSelectorArgument="&lt;wnd app='applicationframehost.exe' appid='Microsoft.WindowsCalculator_8wekyb3d8bbwe!App' title='الحاسبة' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click ''" sap:VirtualizedContainerService.HintSize="338,168" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="24d4ede5-3e16-4c28-a882-a714f4ddad0b" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="382, 694, 118, 73" DesignTimeScaleFactor="1.5" FriendlyName="''" FullSelectorArgument="&lt;uia cls='LandmarkTarget' /&gt;&lt;uia automationid='StandardOperators' cls='NamedContainerAutomationPeer' name='عوامل قياسية' /&gt;&lt;uia automationid='equalButton' cls='Button' name='يعادل' /&gt;" FuzzySelectorArgument="&lt;uia cls='LandmarkTarget' /&gt;&lt;uia automationid='StandardOperators' cls='NamedContainerAutomationPeer' name='عوامل قياسية' /&gt;&lt;uia automationid='equalButton' cls='Button' name='يعادل' role='‏‏زر' check:fulltext='' /&gt;" Guid="39c8c6a1-eecb-4823-9ce0-f3823e2552cd" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHoAAABNCAYAAABpJnDxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAHPSURBVHhe7d27SgNBGIbh3ISNAZEkCoIYSWIqQ2IsIqhXYKmIlWhExcJDK4hiRCxi4wG8CwvLlAGvZ2SakGX+MoUz31s83cy/xQuzs9XmpgtFh/QRWoQZutjcdJWje9f++HVbPw4RaL8PXbX76AqNTtDTy4TOl+Zd7ezFHIR4LO1eZiJ7mdArF31zI+LjT+TxtqPQpbVtcwPiNbNcD0PXzjmyU7O40w1Dr39y8UpN4+k7DG0tRPwILYLQIggtgtAiCC2C0CIILYLQIggtgtAiCC2C0CIILYLQIggtgtAiCC2C0CIILYLQIggtgtAiCC2C0CIILSK50JXrL7dwcDsxfp71nNgkF3qq3nG5XG5i/DzrObFJLjRshBZBaBGEFkFoEcmF5tZtSy4039G25ELDRmgRhBZBaBGEFkFoEYQWQWgRhBZBaBGEFkFoEYQWQWgRhBZBaBGEFkFoEYQWQWgRhBZBaBGEFkFoEYQWQWgRQWh+85+eVn8Qhq6e9MzFiFf1+CEMXWxumosRr0JjIwztlfdvzA2IT7XbG3X1MqG92umzuRHx8K/hfGku0zUI7c3WVl1578q1XgfmIPw/7behqxzeZY7rcWZopIfQEoruD8Qq9w5I9iKtAAAAAElFTkSuQmCC" InformativeScreenshot="b27c6f72ee45f0c3fb1745ccd0009d8c.png" ScopeSelectorArgument="&lt;wnd app='applicationframehost.exe' appid='Microsoft.WindowsCalculator_8wekyb3d8bbwe!App' title='الحاسبة' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Get Text '٩'" sap:VirtualizedContainerService.HintSize="338,168" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="24d4ede5-3e16-4c28-a882-a714f4ddad0b" TextString="[CalculatorResult]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable ContentHash="8OzWaSEq6kehfbmOTkH_Zw" DesignTimeRectangle="11, 154, 494, 108" DesignTimeScaleFactor="1.5" FriendlyName="'٩'" FullSelectorArgument="&lt;uia cls='LandmarkTarget' /&gt;&lt;uia automationid='CalculatorResults' name='الناتج ٩' role='‏‏نص' /&gt;" FuzzySelectorArgument="&lt;uia cls='LandmarkTarget' /&gt;&lt;uia automationid='CalculatorResults' role='‏‏نص' /&gt;" Guid="0bde247e-d827-4e82-bbb0-5501a3666ea6" InformativeScreenshot="c63f7522fcca1ec038eab99e52fe85b8.png" Reference="cN106zf8y0Ggrvafw3Pu9w/epMqcTScpUm2sIx63NrRUw" ScopeSelectorArgument="&lt;wnd app='applicationframehost.exe' appid='Microsoft.WindowsCalculator_8wekyb3d8bbwe!App' title='الحاسبة' /&gt;" SearchSteps="FuzzySelector" Version="V1" Visibility="Interactive" />
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="338,95.33333333333333" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[CalculatorResult]" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" ContentHash="GGX3RZblPE-j2XlCHu7yeA" FilePath="Microsoft.WindowsCalculator_8wekyb3d8bbwe!App" InformativeScreenshot="5185b6f59ea6d90a0a58f2e2f9da818c.png" Selector="&lt;wnd app='applicationframehost.exe' appid='Microsoft.WindowsCalculator_8wekyb3d8bbwe!App' title='الحاسبة' /&gt;" Title="الحاسبة" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

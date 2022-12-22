@@ -1,0 +1,13 @@
+﻿{
+  "Id": "5tYM1-ck1kOy40dh9op1Rg",
+  "Reference": "cN106zf8y0Ggrvafw3Pu9w/5tYM1-ck1kOy40dh9op1Rg",
+  "ParentRef": "cN106zf8y0Ggrvafw3Pu9w/K6fhkU3F-kiXndh3_8plgQ",
+  "Name": "الحاسبة",
+  "Type": "Screen",
+  "Created": "2022-12-22T14:10:22.1908115Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-12-22T14:10:22.1908115Z"
+}

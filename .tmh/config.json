@@ -1,0 +1,9 @@
+{
+  "issueKeyTestcaseValues": {},
+  "testManagerBasePath": "https://cloud.uipath.com/raneem/DefaultTenant/testmanager_",
+  "defaultProject": {
+    "id": "6fa79e11-0016-0000-0d44-0b44ce761b52",
+    "name": "MyFirstProject",
+    "key": "MYFIRSTPROJECT"
+  }
+}
